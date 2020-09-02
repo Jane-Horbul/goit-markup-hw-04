@@ -347,3 +347,15 @@ aside {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.sl-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sl-item {
+  width: calc((100% - 10px * 3) / 4);
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+.sl-item:nth-child(4n) {
+  margin-right: 0;
+}
