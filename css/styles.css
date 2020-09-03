@@ -217,10 +217,12 @@ li.active a span {
   padding-left: 25px;
 }
 
-aside {
-  background: var(--secondr-bg-color);
-  width: 100%;
+.hero {
+  background-image: url(../img/slidebar-001.jpg);
+  max-width: 1600px;
   height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .btn-main {
   background-color: var(--assent-color);
