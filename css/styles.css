@@ -453,3 +453,25 @@ li.active a span {
 .contacts-item:hover .e-mail {
   fill: var(--assent-color);
 }
+/*.advantages-item::before {
+  content: " ";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../img/symbol-defs.svg#antenna);
+}*/
+.advantages-icon-bg {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.advantages-icon {
+  width: 65px;
+  height: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
