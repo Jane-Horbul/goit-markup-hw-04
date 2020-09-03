@@ -322,7 +322,7 @@ aside {
   padding-bottom: 40px;
 }
 .sl-icon-item:not(:last-child) {
-  margin-right: 10;
+  margin-right: 10px;
 }
 .sl-icon-link {
   display: flex;
@@ -402,12 +402,29 @@ aside {
 .sl-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 25px;
 }
-.sl-item {
-  width: calc((100% - 10px * 3) / 4);
-  margin-right: 10px;
-  margin-bottom: 25px;
+
+.sl-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
-.sl-item:nth-child(4n) {
-  margin-right: 0;
+.sl-footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-color);
+}
+.sl-footer-link:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--assent-color);
+}
+.sl-footer-link:hover .sl-footer-icon {
+  background-color: var(--assent-color);
 }
